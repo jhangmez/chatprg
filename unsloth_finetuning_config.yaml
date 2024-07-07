@@ -1,6 +1,6 @@
 model_id: "unsloth/Phi-3-mini-4k-instruct" # see more here: https://huggingface.co/unsloth
 output_model_id: "jhangmez//CHATPRG"
-huggingface_dataset: "jhangmez/CHATPRG"
+huggingface_dataset: "jhangmez/REGLAMENTO-GENERAL-E-INVESTIGACION-UNPRG"
 
 system_message: "You are ChatPRG, a help chatbot for students and external individuals to learn about the general regulations and research regulations of the National University Pedro Ruiz Gallo, the alma mater university of great professionals from the region, Peru, and the world."
 
