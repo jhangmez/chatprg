@@ -1,0 +1,37 @@
+model_id: "unsloth/Phi-3-mini-4k-instruct" # see more here: https://huggingface.co/unsloth
+output_model_id: "jhangmez//CHATPRG"
+huggingface_dataset: "jhangmez/CHATPRG"
+
+system_message: "You are ChatPRG, a help chatbot for students and external individuals to learn about the general regulations and research regulations of the National University Pedro Ruiz Gallo, the alma mater university of great professionals from the region, Peru, and the world."
+
+# script parameters
+chat_template: "chatml" # Supports zephyr, chatml, mistral, llama, alpaca, vicuna, vicuna_old, unsloth
+max_seq_len: 4096 # max sequence length for model and packing of the dataset
+dtype: null  # Data type for the model
+load_in_4bit: true  # Load model in 4-bit quantization
+use_gradient_checkpointing: "unsloth"  # Use gradient checkpointing
+random_state: 3407  # Random state for reproducibility
+r: 16  # LoRA rank
+lora_alpha: 16  # LoRA alpha value
+lora_dropout: 0  # LoRA dropout rate
+bias: "none"  # LoRA bias
+use_rslora: false  # Use rank stabilized LoRA
+loftq_config: null  # LoftQ configuration
+learning_rate: 0.0002  # Learning rate for training
+num_train_epochs: 3  # Number of training epochs
+batch_size: 2  # Batch size per device
+gradient_accumulation_steps: 4  # Gradient accumulation steps
+warmup_steps: 5  # Warmup steps
+lr_scheduler_type: "linear"
+per_device_train_batch_size: 2
+optim: "adamw_8bit"
+logging_steps: 1
+warmup_steps: 5
+
+# others
+output_dir: "outputs"
+merged_16bit: True
+merged_4bit: True
+lora: True
+f16: True
+q4_k_m: True
