@@ -1,7 +1,7 @@
 # ChatPRG
 
-- Modelo pre-entrenado para dar a conocer a estudiantes y personas externas, el reglamento general y reglamento de investigación de la Universidad nacional Pedro Ruiz Gallo de Lambayeque, Perú
-- Pre-trained model to inform students and external individuals about the general regulations and research regulations of the National University Pedro Ruiz Gallo in Lambayeque, Peru
+- Modelo pre-entrenado para dar a conocer a estudiantes y personas externas, los reglamentos de la Universidad nacional Pedro Ruiz Gallo de Lambayeque, Perú
+- Pre-trained model to make known to students and external people the regulations of the Pedro Ruiz Gallo National University of Lambayeque, Peru
 
 ## ChatPRG
 
