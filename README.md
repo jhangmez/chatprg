@@ -4,7 +4,7 @@
 - Pre-trained model to make known to students and external people the regulations of the Pedro Ruiz Gallo National University of Lambayeque, Peru
 
 
-### ChatPRG v0.2.1 Llama 3.1 8B 4bit q4_k_m (stable version)
+### ChatPRG v0.2.1 Llama 3.1 8B 4bit q4_k_m (stable version) [(Ver modelo)](https://huggingface.co/jhangmez/CHATPRG-v0.2.1-Meta-Llama-3.1-8B-bnb-4bit-q4_k_m)
 
 - Pruebas del modelo en su versión estable
 
